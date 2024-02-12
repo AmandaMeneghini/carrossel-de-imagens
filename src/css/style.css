@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+
+.imagem-de-fundo.primeiro-tema {
+    background: url(/src/images/sacuras.jfif) center center no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.imagem-de-fundo.segundo-tema{
+    background: url(/src/images/flores-amarelas.jfif) center center no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.imagem-de-fundo.terceiro-tema{
+    background: url(/src/images/montanhas.jfif) center center no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.imagem-de-fundo.quarto-tema{
+    background: url(/src/images/lago.jfif) center center no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.conteudo{
+    width: 100%;
+}
+
+.seta{
+    width: 49px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.seta-esquerda{
+    rotate: -180deg;
+}
+
+.seta-desativada{
+    opacity: 50%;
+    cursor: default;
+}
+
+.seta-desativada:hover{
+    transform: none;
+}
+
+.section{
+    background-color: #fff;
+    width: 620px;
+    height: 700px;
+    border-radius: 5px;
+    padding: 60px;
+    margin: 70px;
+}
+
+.section h2{
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.section p{
+    margin-bottom: 60px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.section a{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.primeiro-tema a{
+    color: #C50000;
+    transition: 0.3s ease-in-out;
+}
+
+.segundo-tema a{
+    color: #D9DD10;
+    transition: 0.3s ease-in-out;
+}
+
+.terceiro-tema a{
+    color: #A63A17;
+    transition: 0.3s ease-in-out;
+}
+
+.quarto-tema a{
+    color: #10ACDD;
+    transition: 0.3s ease-in-out;
+}
