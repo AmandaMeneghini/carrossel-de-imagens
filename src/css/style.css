@@ -49,8 +49,24 @@
     transform: rotate(180deg);
 }
 
+.seta-voltar img{
+    transition: 0.3s ease-in-out;
+}
+
+.seta-voltar img:hover{
+    transform: scale(1.1);
+}
+
 .seta-avancar{
     right: 4%;
+}
+
+.seta-avancar img{
+    transition: 0.3s ease-in-out;
+}
+
+.seta-avancar img:hover{
+    transform: scale(1.1);
 }
 
 .seta-voltar .imagem-seta,
@@ -61,6 +77,10 @@
 .opacidade{
     opacity: 0.6;
     cursor: default;
+}
+
+.opacidade img:hover{
+    transform: none;
 }
 
 .slide .conteudo{
