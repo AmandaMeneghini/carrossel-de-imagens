@@ -1,0 +1,90 @@
+@media(max-width: 1024px){
+   
+
+    .slide .conteudo{
+        max-width: 620px;
+        padding: 65px 60px;
+        border-radius: 10px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .seta-voltar,
+    .seta-avancar{
+        z-index: 2;
+    }
+}
+
+@media(max-width: 780px){
+    .seta-voltar .imagem-seta,
+    .seta-avancar .imagem-seta{
+        width: 40px;
+    }
+
+    .slide .conteudo{
+        max-width: 500px;
+        padding: 55px 5%;
+    }
+
+    .slide .conteudo .titulo{
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+
+    .slide .conteudo .texto{
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+
+    .slide .conteudo .botao{
+        font-size: 2.8rem;
+    }
+}
+
+
+
+@media(max-width: 630px){
+    .seta-voltar .imagem-seta,
+    .seta-avancar .imagem-seta{
+        width: 25px;
+    }
+
+    .slide .conteudo{
+        max-width: 280px;
+        padding: 35px 30px;
+    }
+
+    .slide .conteudo .titulo{
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .slide .conteudo .texto{
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .slide .conteudo .botao{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media(max-width: 320px){
+    .slide .conteudo{
+        max-width: 220px;
+        padding: 25px 20px;
+    }
+
+    .slide .conteudo .titulo{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .slide .conteudo .botao{
+        font-size: 1.5rem;
+    }
+}
