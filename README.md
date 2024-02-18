@@ -1,11 +1,11 @@
 # Slider com JavaScript
 
-Fortaleci meus conheicmentos, com esse exercício de **troca de imagens com setas (⬅ ➡) que ativam e desativam o funcionamento** quando chegam ao fim
+Fortaleci meus conhecimentos, com esse exercício de **troca de imagens com setas (⬅ ➡) que ativam e desativam o funcionamento** quando chega ao início/fim da lista de imagens 🖼
 
-## Demostração
+## Demonstração
 <img src="./src/images/readme/Slider with JS.gif">
 
-link do [Deploy](https://amandameneghini.github.io/carrossel-de-imagens/)
+link do [Deploy](https://amandameneghini.github.io/carrossel-de-imagens/) 💻
 
 ### Tecnologias Utilizadas ✔
 
